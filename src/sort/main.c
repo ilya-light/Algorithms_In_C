@@ -4,7 +4,7 @@
 #define ARRAY_SIZE 100
 #define MAX_VALUE 100
 #define DEBUG_ALGORITHM 0
-#define ALGORITHM 0
+#define ALGORITHM 1
 
 int main()
 {
@@ -14,7 +14,7 @@ int main()
     int * array = (int*)malloc(sizeof(int) * ARRAY_SIZE);
     fill_array_rnd(array, ARRAY_SIZE, MAX_VALUE);
     print_array(array, ARRAY_SIZE);
-    selection_sort(array, ARRAY_SIZE, 1);
+    insertion_sort(array, ARRAY_SIZE, 0);
     print_array(array, ARRAY_SIZE);
 #else
     test_sort_scenaries();  
@@ -59,6 +59,9 @@ clock_t test_sort_time(int * array, int array_size)
 #elif ALGORITHM == 2
     printf("SELECTION SORT \t");
     selection_sort(array, array_size, 0);
+#elif ALGORITHM == 3
+    printf("INSERTION SORT \t");
+    insertion_sort(array, array_size, 0);
 #endif
     
     

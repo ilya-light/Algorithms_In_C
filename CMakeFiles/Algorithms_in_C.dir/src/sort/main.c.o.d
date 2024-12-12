@@ -45,4 +45,5 @@ CMakeFiles/Algorithms_in_C.dir/src/sort/main.c.o: \
  /home/ilya/repos/C/Algorithms_In_C/src/headers/quick_sort.h \
  /home/ilya/repos/C/Algorithms_In_C/src/headers/utils.h \
  /home/ilya/repos/C/Algorithms_In_C/src/headers/bubble_sort.h \
- /home/ilya/repos/C/Algorithms_In_C/src/headers/selection_sort.h
+ /home/ilya/repos/C/Algorithms_In_C/src/headers/selection_sort.h \
+ /home/ilya/repos/C/Algorithms_In_C/src/headers/insertion_sort.h

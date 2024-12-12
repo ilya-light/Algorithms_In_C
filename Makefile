@@ -153,6 +153,30 @@ src/sort/bubble_sort.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms_in_C.dir/build.make CMakeFiles/Algorithms_in_C.dir/src/sort/bubble_sort.c.s
 .PHONY : src/sort/bubble_sort.c.s
 
+src/sort/insertion_sort.o: src/sort/insertion_sort.c.o
+.PHONY : src/sort/insertion_sort.o
+
+# target to build an object file
+src/sort/insertion_sort.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms_in_C.dir/build.make CMakeFiles/Algorithms_in_C.dir/src/sort/insertion_sort.c.o
+.PHONY : src/sort/insertion_sort.c.o
+
+src/sort/insertion_sort.i: src/sort/insertion_sort.c.i
+.PHONY : src/sort/insertion_sort.i
+
+# target to preprocess a source file
+src/sort/insertion_sort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms_in_C.dir/build.make CMakeFiles/Algorithms_in_C.dir/src/sort/insertion_sort.c.i
+.PHONY : src/sort/insertion_sort.c.i
+
+src/sort/insertion_sort.s: src/sort/insertion_sort.c.s
+.PHONY : src/sort/insertion_sort.s
+
+# target to generate assembly for a file
+src/sort/insertion_sort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms_in_C.dir/build.make CMakeFiles/Algorithms_in_C.dir/src/sort/insertion_sort.c.s
+.PHONY : src/sort/insertion_sort.c.s
+
 src/sort/main.o: src/sort/main.c.o
 .PHONY : src/sort/main.o
 
@@ -261,6 +285,9 @@ help:
 	@echo "... src/sort/bubble_sort.o"
 	@echo "... src/sort/bubble_sort.i"
 	@echo "... src/sort/bubble_sort.s"
+	@echo "... src/sort/insertion_sort.o"
+	@echo "... src/sort/insertion_sort.i"
+	@echo "... src/sort/insertion_sort.s"
 	@echo "... src/sort/main.o"
 	@echo "... src/sort/main.i"
 	@echo "... src/sort/main.s"
