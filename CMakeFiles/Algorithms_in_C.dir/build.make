@@ -111,10 +111,24 @@ CMakeFiles/Algorithms_in_C.dir/src/sort/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Algorithms_in_C.dir/src/sort/main.c.s"
 	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ilya/repos/C/Algorithms_In_C/src/sort/main.c -o CMakeFiles/Algorithms_in_C.dir/src/sort/main.c.s
 
+CMakeFiles/Algorithms_in_C.dir/src/sort/merge_sort.c.o: CMakeFiles/Algorithms_in_C.dir/flags.make
+CMakeFiles/Algorithms_in_C.dir/src/sort/merge_sort.c.o: src/sort/merge_sort.c
+CMakeFiles/Algorithms_in_C.dir/src/sort/merge_sort.c.o: CMakeFiles/Algorithms_in_C.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/repos/C/Algorithms_In_C/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Algorithms_in_C.dir/src/sort/merge_sort.c.o"
+	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Algorithms_in_C.dir/src/sort/merge_sort.c.o -MF CMakeFiles/Algorithms_in_C.dir/src/sort/merge_sort.c.o.d -o CMakeFiles/Algorithms_in_C.dir/src/sort/merge_sort.c.o -c /home/ilya/repos/C/Algorithms_In_C/src/sort/merge_sort.c
+
+CMakeFiles/Algorithms_in_C.dir/src/sort/merge_sort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Algorithms_in_C.dir/src/sort/merge_sort.c.i"
+	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ilya/repos/C/Algorithms_In_C/src/sort/merge_sort.c > CMakeFiles/Algorithms_in_C.dir/src/sort/merge_sort.c.i
+
+CMakeFiles/Algorithms_in_C.dir/src/sort/merge_sort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Algorithms_in_C.dir/src/sort/merge_sort.c.s"
+	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ilya/repos/C/Algorithms_In_C/src/sort/merge_sort.c -o CMakeFiles/Algorithms_in_C.dir/src/sort/merge_sort.c.s
+
 CMakeFiles/Algorithms_in_C.dir/src/sort/quick_sort.c.o: CMakeFiles/Algorithms_in_C.dir/flags.make
 CMakeFiles/Algorithms_in_C.dir/src/sort/quick_sort.c.o: src/sort/quick_sort.c
 CMakeFiles/Algorithms_in_C.dir/src/sort/quick_sort.c.o: CMakeFiles/Algorithms_in_C.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/repos/C/Algorithms_In_C/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Algorithms_in_C.dir/src/sort/quick_sort.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/repos/C/Algorithms_In_C/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Algorithms_in_C.dir/src/sort/quick_sort.c.o"
 	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Algorithms_in_C.dir/src/sort/quick_sort.c.o -MF CMakeFiles/Algorithms_in_C.dir/src/sort/quick_sort.c.o.d -o CMakeFiles/Algorithms_in_C.dir/src/sort/quick_sort.c.o -c /home/ilya/repos/C/Algorithms_In_C/src/sort/quick_sort.c
 
 CMakeFiles/Algorithms_in_C.dir/src/sort/quick_sort.c.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/Algorithms_in_C.dir/src/sort/quick_sort.c.s: cmake_force
 CMakeFiles/Algorithms_in_C.dir/src/sort/selection_sort.c.o: CMakeFiles/Algorithms_in_C.dir/flags.make
 CMakeFiles/Algorithms_in_C.dir/src/sort/selection_sort.c.o: src/sort/selection_sort.c
 CMakeFiles/Algorithms_in_C.dir/src/sort/selection_sort.c.o: CMakeFiles/Algorithms_in_C.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/repos/C/Algorithms_In_C/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Algorithms_in_C.dir/src/sort/selection_sort.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/repos/C/Algorithms_In_C/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Algorithms_in_C.dir/src/sort/selection_sort.c.o"
 	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Algorithms_in_C.dir/src/sort/selection_sort.c.o -MF CMakeFiles/Algorithms_in_C.dir/src/sort/selection_sort.c.o.d -o CMakeFiles/Algorithms_in_C.dir/src/sort/selection_sort.c.o -c /home/ilya/repos/C/Algorithms_In_C/src/sort/selection_sort.c
 
 CMakeFiles/Algorithms_in_C.dir/src/sort/selection_sort.c.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/Algorithms_in_C.dir/src/sort/selection_sort.c.s: cmake_force
 CMakeFiles/Algorithms_in_C.dir/src/utils/utils.c.o: CMakeFiles/Algorithms_in_C.dir/flags.make
 CMakeFiles/Algorithms_in_C.dir/src/utils/utils.c.o: src/utils/utils.c
 CMakeFiles/Algorithms_in_C.dir/src/utils/utils.c.o: CMakeFiles/Algorithms_in_C.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/repos/C/Algorithms_In_C/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Algorithms_in_C.dir/src/utils/utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/repos/C/Algorithms_In_C/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Algorithms_in_C.dir/src/utils/utils.c.o"
 	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Algorithms_in_C.dir/src/utils/utils.c.o -MF CMakeFiles/Algorithms_in_C.dir/src/utils/utils.c.o.d -o CMakeFiles/Algorithms_in_C.dir/src/utils/utils.c.o -c /home/ilya/repos/C/Algorithms_In_C/src/utils/utils.c
 
 CMakeFiles/Algorithms_in_C.dir/src/utils/utils.c.i: cmake_force
@@ -158,6 +172,7 @@ Algorithms_in_C_OBJECTS = \
 "CMakeFiles/Algorithms_in_C.dir/src/sort/bubble_sort.c.o" \
 "CMakeFiles/Algorithms_in_C.dir/src/sort/insertion_sort.c.o" \
 "CMakeFiles/Algorithms_in_C.dir/src/sort/main.c.o" \
+"CMakeFiles/Algorithms_in_C.dir/src/sort/merge_sort.c.o" \
 "CMakeFiles/Algorithms_in_C.dir/src/sort/quick_sort.c.o" \
 "CMakeFiles/Algorithms_in_C.dir/src/sort/selection_sort.c.o" \
 "CMakeFiles/Algorithms_in_C.dir/src/utils/utils.c.o"
@@ -168,12 +183,13 @@ Algorithms_in_C_EXTERNAL_OBJECTS =
 Algorithms_in_C: CMakeFiles/Algorithms_in_C.dir/src/sort/bubble_sort.c.o
 Algorithms_in_C: CMakeFiles/Algorithms_in_C.dir/src/sort/insertion_sort.c.o
 Algorithms_in_C: CMakeFiles/Algorithms_in_C.dir/src/sort/main.c.o
+Algorithms_in_C: CMakeFiles/Algorithms_in_C.dir/src/sort/merge_sort.c.o
 Algorithms_in_C: CMakeFiles/Algorithms_in_C.dir/src/sort/quick_sort.c.o
 Algorithms_in_C: CMakeFiles/Algorithms_in_C.dir/src/sort/selection_sort.c.o
 Algorithms_in_C: CMakeFiles/Algorithms_in_C.dir/src/utils/utils.c.o
 Algorithms_in_C: CMakeFiles/Algorithms_in_C.dir/build.make
 Algorithms_in_C: CMakeFiles/Algorithms_in_C.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ilya/repos/C/Algorithms_In_C/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable Algorithms_in_C"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ilya/repos/C/Algorithms_In_C/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable Algorithms_in_C"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Algorithms_in_C.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

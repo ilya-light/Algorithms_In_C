@@ -201,6 +201,30 @@ src/sort/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms_in_C.dir/build.make CMakeFiles/Algorithms_in_C.dir/src/sort/main.c.s
 .PHONY : src/sort/main.c.s
 
+src/sort/merge_sort.o: src/sort/merge_sort.c.o
+.PHONY : src/sort/merge_sort.o
+
+# target to build an object file
+src/sort/merge_sort.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms_in_C.dir/build.make CMakeFiles/Algorithms_in_C.dir/src/sort/merge_sort.c.o
+.PHONY : src/sort/merge_sort.c.o
+
+src/sort/merge_sort.i: src/sort/merge_sort.c.i
+.PHONY : src/sort/merge_sort.i
+
+# target to preprocess a source file
+src/sort/merge_sort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms_in_C.dir/build.make CMakeFiles/Algorithms_in_C.dir/src/sort/merge_sort.c.i
+.PHONY : src/sort/merge_sort.c.i
+
+src/sort/merge_sort.s: src/sort/merge_sort.c.s
+.PHONY : src/sort/merge_sort.s
+
+# target to generate assembly for a file
+src/sort/merge_sort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms_in_C.dir/build.make CMakeFiles/Algorithms_in_C.dir/src/sort/merge_sort.c.s
+.PHONY : src/sort/merge_sort.c.s
+
 src/sort/quick_sort.o: src/sort/quick_sort.c.o
 .PHONY : src/sort/quick_sort.o
 
@@ -291,6 +315,9 @@ help:
 	@echo "... src/sort/main.o"
 	@echo "... src/sort/main.i"
 	@echo "... src/sort/main.s"
+	@echo "... src/sort/merge_sort.o"
+	@echo "... src/sort/merge_sort.i"
+	@echo "... src/sort/merge_sort.s"
 	@echo "... src/sort/quick_sort.o"
 	@echo "... src/sort/quick_sort.i"
 	@echo "... src/sort/quick_sort.s"

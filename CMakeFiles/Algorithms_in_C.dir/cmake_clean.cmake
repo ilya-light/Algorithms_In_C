@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Algorithms_in_C.dir/src/sort/insertion_sort.c.o.d"
   "CMakeFiles/Algorithms_in_C.dir/src/sort/main.c.o"
   "CMakeFiles/Algorithms_in_C.dir/src/sort/main.c.o.d"
+  "CMakeFiles/Algorithms_in_C.dir/src/sort/merge_sort.c.o"
+  "CMakeFiles/Algorithms_in_C.dir/src/sort/merge_sort.c.o.d"
   "CMakeFiles/Algorithms_in_C.dir/src/sort/quick_sort.c.o"
   "CMakeFiles/Algorithms_in_C.dir/src/sort/quick_sort.c.o.d"
   "CMakeFiles/Algorithms_in_C.dir/src/sort/selection_sort.c.o"
