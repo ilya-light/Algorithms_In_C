@@ -3,7 +3,7 @@
 #define SEC_TO_MICROSEC 1000000
 #define ARRAY_SIZE 100
 #define MAX_VALUE 100
-#define DEBUG_ALGORITHM 1
+#define DEBUG_ALGORITHM 0
 #define ALGORITHM 4
 
 int main()
