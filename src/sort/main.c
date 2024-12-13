@@ -14,7 +14,7 @@ int main()
     int * array = (int*)malloc(sizeof(int) * ARRAY_SIZE);
     fill_array_rnd(array, ARRAY_SIZE, MAX_VALUE);
     print_array(array, ARRAY_SIZE);
-    merge_sort(array, 0, ARRAY_SIZE-1, 0);
+    merge_sort(array, 0, ARRAY_SIZE-1, 1);
     print_array(array, ARRAY_SIZE);
     free(array);
 #else

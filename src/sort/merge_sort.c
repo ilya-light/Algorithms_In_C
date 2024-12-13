@@ -52,7 +52,7 @@ void merge_sort(int * arr, int start, int end, int order)
 {
     if(start < end)
     {
-        int mid = start + (start + end) / 2;
+        int mid = (start + end) / 2;
         
         merge_sort(arr, start, mid, order);
         merge_sort(arr, mid + 1, end, order);
